@@ -1,0 +1,4 @@
+bin/
+*.exe
+data/output/
+__pycache__/

@@ -1,0 +1,22 @@
+CUDA GPU Image Processing Pipeline - Installation
+
+=== Linux / Google Colab ===
+1. Ensure CUDA toolkit is installed:
+   nvcc --version
+
+2. Clone repository:
+   git clone https://github.com/Aaron23009/cuda-image-processing.git
+   cd cuda-image-processing
+
+3. Build:
+   make build
+
+4. Add images to data/input/ and create manifest.txt listing filenames
+
+5. Run:
+   make run
+
+=== Requirements ===
+- NVIDIA GPU (Compute Capability 3.0+)
+- CUDA Toolkit 10.0+
+- GCC with C++17 support
